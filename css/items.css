@@ -1,0 +1,18 @@
+
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brand-container {
+    flex: 0 0 250px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+  }
+
+  .brand-container p {
+    padding: .1rem 1rem;
+  }

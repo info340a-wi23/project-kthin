@@ -5,44 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Sustainable Style Guide</title>
 
-  <!-- normalize.css for cross-browser stuff -->
+  <link rel="stylesheet" href="css/homepage.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-
-  <!-- include required fonts -->  
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/subcategoryStyle.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+    <header class="navbar-bg">
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="Homepage.html"> <img alt="Navigation" src="img/sitelogo.jpeg" class="logo"></li>
+                    <li><h1 class="name">ShopSpree</h1></li>
+                </ul>
+                </a>
+                <ul>
+                    <li><a href="Homepage.html">home</a></li>
+                    <li><a href="items.html">items</a></li>
+                    <li><a href="Subcategory.html">styles</a></li>
+                    <li><a href="about.html">about us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <main>
-        <h1>sustainable athleisure brands</h1>
+        <div class="subcategoryTitle">
+            <h1>sustainable athleisure brands</h1>
+        </div>
 
         <div class="brand">
             <!-- brand 1 -->
             <div class="brand-container">
-                <img src="img/girlfriendcollective.jpg" alt="Girlfriend Collective">
+                <a href="https://girlfriend.com/"><img alt="Girlfriend Collective" src="img/girlfriendcollective.jpg"></a>
                 <p>Girlfriend Collective produces high quality cute clothes from recycled materials all in an eco-friendly package and recycling program</p>
             </div>
 
             <div class="brand-container">
-                <img src="img/outdoorvoices.jpg" alt="Outdoor Voices">
+                <a href="https://outdoorvoices.com/"><img alt="Outdoor Voices" src="img/outdoorvoices.jpg"></a>
                 <p>Outdoor Voices focuses on sustainability and inclusivity to create beautiful modern atheltic wear for all shapes and sizes</p>
             </div>
 
             <div class="brand-container">
-                <img src="img/reformation.jpg" alt="Ref Active by Reformation">
+                <a href="https://reformation.com/"><img alt="Ref Active by Reformation" src="img/reformation.jpg"></a>
                 <p>Ref Active, by Reformation, is a highly sustainable and climate-friendly athleisure line that focuses on simplicity and quality</p>
             </div>
 
             <div class="brand-container">
-                <img src="img/patagonia.jpg" alt="Patagonia">
+                <a href="https://patagonia.com/"><img alt="Patagonia" src="img/patagonia.jpg"></a>
                 <p>Patagonia is an outdoor-focused highly sustainable brand founded in Venture, California.</p>
             </div>
         </div>
-    </main>
+    </main> 
 
-
- 
+    <footer>
+        <div class="footer-info">
+            <h3>&copy; ShopSpree</h3>
+            <p>ShopSpree creates a happier yet more affordable and sustainable shopping experience for young consumers.
+            </p>
+            <p>Stay up to date with all the latest trends through our socials.</p>
+            <ul class="links">
+                <li><a href="https://www.facebook.com/UWiSchool" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/uwischool/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li><a href="https://twitter.com/uw_ischool?s=20&t=6g6UTfndELpQXwPyzvzTog" target="_blank"><i
+                            class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>COPYRIGHT &copy;2022. DESIGNED BY <i>INFO 340 GROUP AA1</i></p>
+        </div>
+    </footer>
 </body>
+
 </html>
